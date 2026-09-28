@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "ilookat",
+  "version": "${version}",
+  "name": "I Look At",
+  "description": "Broadcast what you are looking at with /ilookat. See-through water and glass; stop on lava.",
+  "authors": ["Jahus"],
+  "license": "MIT",
+  "icon": "assets/ilookat/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.jahus.ilookat.ILookAt"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
